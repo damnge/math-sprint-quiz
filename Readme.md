@@ -10,21 +10,21 @@ Every equation is created from random numbers up to 9, so there are not too comp
 Some of the equations are correct some of them are wrong.  
 Players by clicking the Wrong and Correct buttons select the answer.
 The goal of the game is to have the best possible time. For every wrong answer, there is a 0.5-second penalty.  
-The best score of the player is saved into Local Storage so whenever the user comes back to play again, the user can see the best time.  
+The best score of the player is saved into Local Storage so whenever the user comes back to play again, the user can see the best time.
 
 ### Onboarding Page
 
 In the beginning, the User is taken through a simple onboarding process.
 User needs to pass their Nickname into the form, then this name is stored in the Local Storage and every time the user comes back to the game app already remember the Users name (unless local storage is cleared). If the name is not provided to the input the Alert message will be displayed.
 
-
 ### Splash Page
 
 Second card so-called splash page. Display the name of the User with a simple intro and 4 different radio input categories:
-* 10 questions
-* 25 questions
-* 50 questions
-* 99 questions
+
+- 10 questions
+- 25 questions
+- 50 questions
+- 99 questions
 
 Players need to select one of the categories and then they can press start game.
 
@@ -44,9 +44,10 @@ When all the questions are answered game finishes
 
 The last page is where players can see their scores.  
 The Users can see their:
-* Base Time
-* Penalty Time
-* Final Time - that combines both Base Time and Penalty Time.
+
+- Base Time
+- Penalty Time
+- Final Time - that combines both Base Time and Penalty Time.
 
 After one second the Play Again button is displayed and it takes the User back to the Splash Page where they can select the category again.
 If their time is better than before or it's the first time the Best Score on the side of each individual category will be displayed.
@@ -57,4 +58,3 @@ Feel free to play with the code and improve it! Thanks for your time, hope you h
 PS. To make the game a bit more complex and shuffle all equations (between right and correct ones) I've used the solution that I found on StackOverflow.
 description with the link you can find here and inside the shuffle.js file.  
 https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
-

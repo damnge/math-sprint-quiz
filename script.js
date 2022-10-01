@@ -338,7 +338,7 @@ startForm.addEventListener("click", () => {
 function addPlayerName(e) {
   // we prevent the website to realod on clicking the submit button
   e.preventDefault();
-  let username = onboardForm.name.value;
+  let username = onboardForm.nickname.value;
   // if the username input is empty display alert
   if (username.trim() === "") {
     alert("Please choose your nickname!");
