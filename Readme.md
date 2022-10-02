@@ -8,7 +8,7 @@ For the speciality guide, I've chosen coding. I've decided to build a small math
 This is a single-page web application, that shows the players simple math equations.  
 Every equation is created from random numbers up to 9, so there are not too complicated.  
 Some of the equations are correct some of them are wrong.  
-Players by clicking the Wrong and Correct buttons select the answer.
+Players by clicking the Wrong and Correct buttons select the answer.  
 The goal of the game is to have the best possible time. For every wrong answer, there is a 0.5-second penalty.  
 The best score of the player is saved into Local Storage so whenever the user comes back to play again, the user can see the best time.
 
@@ -55,6 +55,6 @@ If their time is better than before or it's the first time the Best Score on the
 That's all logic behind the game. Descriptions and comments block by block you can find inside the script.js and index.html files.  
 Feel free to play with the code and improve it! Thanks for your time, hope you had fun!
 
-PS. To make the game a bit more complex and shuffle all equations (between right and correct ones) I've used the solution that I found on StackOverflow.
+PS. To make the game a bit more complex and shuffle all equations (between wrong and correct ones) I've used the solution that I found on StackOverflow.
 description with the link you can find here and inside the shuffle.js file.  
 https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
