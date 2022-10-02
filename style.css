@@ -357,9 +357,14 @@ button:active {
     top: 183px;
   }
 }
+
+/* Media Query: for larger smartphones */
 @media screen and (max-device-width: 414px) and (max-device-height: 915px) and (min-device-height: 740px) {
   .game__container {
     margin-top: 50px;
+  }
+  .selected__item {
+    top: 395px;
   }
 }
 
