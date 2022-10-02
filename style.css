@@ -50,7 +50,7 @@ body {
   border-radius: 10px 10px 0 0;
 }
 
-/* card for each page that we reuse */
+/* Card for each page that we reuse */
 .card {
   margin: 5px auto 10px;
   height: 600px;
@@ -357,10 +357,31 @@ button:active {
     top: 183px;
   }
 }
+@media screen and (max-device-width: 414px) and (max-device-height: 915px) and (min-device-height: 740px) {
+  .game__container {
+    margin-top: 50px;
+  }
+}
 
 /* Media Query: iPhone */
 @media screen and (max-width: 376px) {
+  .card {
+    height: 500px;
+  }
   .best__score {
     left: 232px;
+  }
+  .introduction {
+    font-size: 28px;
+    margin: 20px 0 -80px;
+  }
+  .selection__footer {
+    top: 125px;
+  }
+  .item__container {
+    height: 465px;
+  }
+  .score__container {
+    height: 500px;
   }
 }
